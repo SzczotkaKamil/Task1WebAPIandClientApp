@@ -24,22 +24,19 @@ namespace Task1WebAPIandClientApp
         [HttpGet]
         public IEnumerable<Contact> Get()
         {
-            return deserializeXml();
-        }
-        public IEnumerable<Contact> deserializeXml()
-        {
-            var listOfXmlObjects = new List<Contact>();
-            XmlSerializer xs = new XmlSerializer(typeof(Contact[]));
-            using (Stream ins = System.IO.File.Open(_options.Value.FilePath, FileMode.Open))
-                foreach (Contact o in (Contact[])xs.Deserialize(ins))
-                    yield return o;
+            Deserializer deserializer = new Deserializer();
+            deserializer.deserializeXml(_options.Value.FilePath);
+            return deserializer.listOfXmlObjects;
+            
         }
 
         // GET api/<ContactController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Contact Get(int id)
         {
-            return "value";
+            Deserializer deserializer = new Deserializer();
+            deserializer.deserializeXml(_options.Value.FilePath);
+            return deserializer.listOfXmlObjects[id];
         }
 
         // POST api/<ContactController>

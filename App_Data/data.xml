@@ -76,6 +76,7 @@
     <LastName>Szczotka</LastName>
     <PhoneNumber>123123123</PhoneNumber>
     <Email>k@gmail.com</Email>
+   </Contact>
     <Contact Id="14">
       <Name>Kamil</Name>
       <LastName>Szczotka</LastName>
@@ -88,7 +89,49 @@
       <PhoneNumber>123123123</PhoneNumber>
       <Email>k@gmail.com</Email>
     </Contact>
-  </Contact>
+    <Contact Id="16">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="17">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="18">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="19">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="20">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="21">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+    <Contact Id="22">
+      <Name>Kamil</Name>
+      <LastName>Szczotka</LastName>
+      <PhoneNumber>123123123</PhoneNumber>
+      <Email>k@gmail.com</Email>
+    </Contact>
+  
 </ArrayOfContact>
 
 
