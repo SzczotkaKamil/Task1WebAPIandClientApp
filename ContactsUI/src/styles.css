@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+
+td {
+    text-align: center;
+}
+th {
+    text-align: center;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+.table > thead > tr > td {
+     vertical-align: middle;
+}
